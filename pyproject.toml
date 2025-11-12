@@ -33,5 +33,7 @@ dependencies = [
 Repository = "https://github.com/CLIMADA-project/nccs-global-impacts-modelling"
 Issues = "https://github.com/CLIMADA-project/nccs-global-impacts-modelling/issues"
 
-[tool.setuptools]
-packages = ["nccs"]
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nccs*"]
+exclude = ["tests*", "*.tests"]
