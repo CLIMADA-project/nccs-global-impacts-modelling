@@ -35,5 +35,5 @@ Issues = "https://github.com/CLIMADA-project/nccs-global-impacts-modelling/issue
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["nccs*"]
+include = ["nccs*", "exposures*"]
 exclude = ["tests*", "*.tests"]
