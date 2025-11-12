@@ -2,7 +2,7 @@
 
 This directory contains the scripts to generated the geographical distribution of exposed assets used for the direct impact calculations, as well as the necessary data.
 
-Each folders aim at generating `.h5` files for each considered sectors, both at the global scope and split by country.
+Each folder aims at generating `.h5` files for each considered sectors, both at the global scope and split by country.
 
 These generated files can be imported by CLIMADA as `Exposures` objects and are point-based representation of economic assets. 
 Methological details for each exposure types are described in markdown files in each folder.

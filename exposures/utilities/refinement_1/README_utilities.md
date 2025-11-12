@@ -7,7 +7,7 @@
 **Link to directly download the data:** https://zenodo.org/records/4957647
 - Files downloaded under the **resolution 0.1x0.1 degree**, representing total amount of each infrastructure type within a given grid cell: 
   - `summary_energy.feather` 
-  - `summray_water.feather`
+  - `summary_water.feather`
   - `summary_waste.feather`
 
 
@@ -63,7 +63,7 @@
 **Limitations/considerations**
 -
 - The data is provided at a resolution of 0.1x0.1 degree. Even though each gird cell represent the factor amount of infrastructure within the given cell, the whole grid cell is exposed.
-- ROW countries that are not included in the GDP list are assigned with a value of 0.
+- ROW countries that are not included in the GDP list are assigned a value of 0.
 
 
 **Visual: Plots on normalized data by country for each sector**

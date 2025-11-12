@@ -17,7 +17,7 @@ Where we downloaded the following file: 2011 EDGARv6.1_NOx_2011_TOTALS.zip
   - we removed all the emissions below 100t per year (such as in Tobler 2018) and ended up with 163135 data points
 - Step 2: Assign for each row (lat/lon location) a country ISO code that is needed by the Climada SupplyChain module:
   - For a total of 29438 rows (gridpoints) no country could be assigned, and they have been deleted, which leaves us with 133697 gridcells
-  - In Total, we have 208 countries listed that have NOx emssions > 100t per year 
+  - In Total, we have 208 countries listed that have NOx emissions > 100t per year 
 - Step 3: Assign for each datapoint a value according to the total production of each sector within a country and the amount of area of mining per gridcell: 
   - No value could be assigned for the following countries: AIA, ANT, CRX, ESH, FLK, GUF, IOT, MSR, REU, SJM
   - All the manufacturing subsectors of WIOD were summed up and taken as a total country value to distribute according to signal
