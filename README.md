@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repository contains all the code that was developed and run to generate the results for the [NCCS Global Impacts project](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/nccs-impacts/global-impacts.html).
+This repository contains all the code that was developed and run to generate the results for the [National Centre for Climate Services (NCCS) Global Impacts project](https://www.nccs.admin.ch/nccs/en/home/climate-change-and-impacts/nccs-impacts/global-impacts.html).
 
 It is associated with the [NCCS Global impacts of climate change on Switzerland Data Collection](http://hdl.handle.net/20.500.11850/785985) hosted by ETH research collection.
 
-Contact person: Samuel Juhel, sjuhel[at]ethz.ch
+Contact person: Samuel Juhel, sjuhel[at]ethz.ch / [@spjuhel](https://github.com/spjuhel)
 
 ## Repository Content
 
@@ -73,7 +73,7 @@ mamba install -c conda-forge "climada_petals==6.1.0"
 
 While the CLIMADA team strive to keep backward compatibility, we cannot insure that future version will stay compatible with the code in this repository.
 
-Also note that while the main pipeline was fully tested with this version of CLIMADA, it is not necessarily the case for all other scripts.
+Also note that while the main pipeline (`nccs` folder) was fully tested with this version of CLIMADA, it is not necessarily the case for the scripts within other folders.
 
 ### Installing this repository
 
@@ -121,7 +121,7 @@ setup the `'data_path'` value in their configuration.
 
 ### Configuration
 
-A run of the pipeline can be configured from a dictionary with the following properties:
+A run of the pipeline can be configured from a dictionary with the following properties (other examples of such dictionaries can be found in `nccs.run_configurations`):
 
 ```python
 {
